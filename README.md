@@ -10,15 +10,10 @@
     - [Condition Variables](#condition-variables)
     - [Threads](#threads)
     - [Synchronization](#synchronization)
-5. [Common Concurrency Problems and Solutions](#common-concurrency-problems-and-solutions)
-    - [Producer-Consumer Problem](#producer-consumer-problem)
-    - [Readers-Writers Problem](#readers-writers-problem)
-    - [Dining Philosophers Problem](#dining-philosophers-problem)
-    - [Resource Allocation (Charging Stations)](#resource-allocation-charging-stations)
-6. [Why Understanding Concurrency Matters](#why-understanding-concurrency-matters)
-7. [Getting Started with the Exercises](#getting-started-with-the-exercises)
-8. [Conclusion](#conclusion)
-9. [Additional Resources](#additional-resources)
+5. [Why Understanding Concurrency Matters](#why-understanding-concurrency-matters)
+6. [Getting Started with the Exercises](#getting-started-with-the-exercises)
+7. [Conclusion](#conclusion)
+8. [Additional Resources](#additional-resources)
 
 ---
 
