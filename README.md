@@ -64,3 +64,21 @@ pthread_mutex_t mutex;
 pthread_mutex_lock(&mutex);
 // Critical section
 pthread_mutex_unlock(&mutex);
+```
+
+### Deadlock
+
+A **deadlock** occurs when two or more threads are blocked forever, each waiting for the other to release a resource. Deadlocks can halt program execution and are a common concurrency issue.
+
+#### **Deadlock Conditions:**
+
+1. **Mutual Exclusion:** At least one resource must be held in a non-shareable mode.
+2. **Hold and Wait:** Threads holding resources are waiting to acquire additional resources.
+3. **No Preemption:** Resources cannot be forcibly removed from threads.
+4. **Circular Wait:** A circular chain of threads exists, where each thread holds at least one resource needed by the next thread in the chain.
+
+#### **Deadlock Prevention Strategies:**
+
+- **Resource Ordering:** Assign a global order to resources and acquire them in that order.
+- **Avoid Hold and Wait:** Require threads to request all needed resources at once.
+- **Timeouts:** Implement timeouts for resource acquisition attempts.
