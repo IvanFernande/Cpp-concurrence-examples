@@ -171,7 +171,7 @@ The provided exercises serve as practical implementations of classic concurrency
 
 - **Online Tutorials**:
   - [The Little Book of Semaphores](https://greenteapress.com/wp/semaphores/)
-  - [C++ Multithreading Tutorial](https://www.cplusplus.com/doc/tutorial/thread/)
+  - [C++ Multithreading Tutorial](https://www.cplusplus.com)
 
 - **Tools**:
   - **Valgrind**: For detecting memory leaks and threading errors.
