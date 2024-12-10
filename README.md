@@ -142,7 +142,7 @@ To effectively learn and practice concurrency concepts, follow these steps:
 
     **Compilation Example**:
     ```bash
-    g++ -pthread -o producer_consumer producer_consumer.cpp
+    g++ -pthread -o executable_name code.cpp
     ```
 
 4. **Experiment and Modify**: Change parameters like the number of threads, buffer sizes, or introduce intentional synchronization issues to observe their effects.
